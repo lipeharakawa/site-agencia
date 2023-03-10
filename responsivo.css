@@ -1,0 +1,68 @@
+@media  screen and (max-width: 1100px){
+    .navbar{
+        position: relative;
+    }
+    .logo{
+        margin: 0;
+        text-align: center;
+    }
+    .menu #botao{
+        display: none;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .headline p{
+        text-align: center;
+    }
+    .img-headline{
+        flex:100%;
+        margin: 5%;
+        text-align: center;
+    }
+    .card{
+        width: 100%;
+    }
+    footer{
+        height: 500px;
+        width: auto;
+    }
+    .whats{
+        display: none;
+    }
+}
+
+input[type=checkbox]{
+    display: none;
+} 
+
+.hamburger{
+    display: none;
+    font-size: 25px;
+    user-select: none;
+    margin-right: 25px;
+    color:#FF2978;
+}
+
+@media (max-width: 1100px){
+    .menu{ 
+        display:none;
+        position: absolute;
+        background-color:white;
+        right: 0px;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+}
