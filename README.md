@@ -7,7 +7,6 @@ O projeto desenvolvido é um site de uma agência digital utilizando conceitos f
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>     |    
   <a href="#-projeto">Projeto</a>     |    
-  <a href="#-layout">Layout</a>     |    
   <a href="#-licença">Licença</a>
 </p>
 
