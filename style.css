@@ -64,7 +64,6 @@ body{
 }
 
 .header{
-    background-color: white;
     height: auto;
     display: flex;
     flex-flow: row wrap;
